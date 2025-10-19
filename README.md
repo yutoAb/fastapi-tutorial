@@ -97,6 +97,7 @@ docker-compose exec demo-app poetry run python -m api.migrate_db
 | GET | `/tasks` | タスク一覧の取得 |
 | POST | `/tasks` | 新しいタスクの作成 |
 | PUT | `/tasks/{task_id}` | タスクの更新 |
+| DELETE | `/tasks/{task_id}` | タスクの削除 |
 
 ### 完了状態関連
 
